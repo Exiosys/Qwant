@@ -1,0 +1,123 @@
+#SideBar {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  width: 415px;
+  font-family: "Roboto", sans-se rif;
+  right: 0;
+  margin-right: 75px;
+  margin-top: 10px;
+}
+
+#SideBar #Mode {
+  width: 100%;
+  height: 50px;
+  margin-left: -10px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+#SideBar fieldset {
+  border: none;
+  border-bottom: 2px solid #eceff1;
+  margin-bottom: 15px;
+}
+
+#SideBar button {
+  width: 200px;
+  margin-left: 5px;
+  height: 45px;
+  text-align: left;
+  vertical-align: middle;
+  padding-top: 5px;
+  border: none;
+  border-radius: 8px;
+  background: white;
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+#SideBar .trier_b.active {
+  color: white;
+  background: #af27cc;
+  box-shadow: 0px 0px 8px #af27cc;
+}
+
+#SideBar button:hover {
+  background: #f2f2f2;
+}
+
+#SideBar .periode_b.active {
+  color: white;
+  background: #ff3b4a;
+  box-shadow: 0px 0px 8px #ff3b4a;
+}
+
+#SideBar .source_b.active {
+  color: white;
+  background: #87c966;
+  box-shadow: 0px 0px 8px rgba(135, 201, 102, 0.5);
+}
+
+#SideBar img,
+#SideBar svg {
+  vertical-align: middle;
+  width: 40px;
+  margin-top: -5px;
+  padding-right: 10px;
+}
+
+#listbutton {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+#listbutton li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+
+#SideBar-Source {
+  list-style: none;
+  margin-top: 10px;
+  width: 98%;
+}
+
+#ListSources {
+  height: 145px;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+#SideBar-Source button {
+  padding: 0;
+  padding-left: 10px;
+  width: 100%;
+}
+
+@media (max-width: 1025px) {
+  #SideBar {
+    position: relative;
+    display: initial;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: auto;
+    text-align: center;
+    margin-top: 50px;
+  }
+  #formsidebar {
+    text-align: center;
+  }
+  #ListSources {
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+  }
+}

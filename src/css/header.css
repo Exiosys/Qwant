@@ -1,0 +1,150 @@
+header {
+  width: 100%;
+  height: 102px;
+  border-bottom: 0.5px solid rgb(224, 224, 224);
+  overflow: hidden;
+}
+
+.SearchBar {
+  width: 535px;
+  margin-left: 80px;
+  height: 45px;
+  border: 0.5px solid rgb(206, 206, 206);
+  border-radius: 25px;
+  outline: none;
+  font-size: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#searchground {
+  width: 765px;
+  position: absolute;
+  z-index: -1;
+}
+
+#divbar {
+  padding-top: 10px;
+}
+
+.SearchBar:focus,
+.SearchBar:hover {
+  -webkit-box-shadow: 9px 9px 16px -16px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: 9px 9px 16px -16px rgba(0, 0, 0, 0.68);
+  box-shadow: 9px 9px 16px -16px rgba(0, 0, 0, 0.68);
+}
+
+#srsh {
+  width: 40px;
+  position: absolute;
+  margin-left: -590px;
+  margin-top: -7px;
+  outline: none;
+}
+
+#submitsearch {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  background: rgba(255, 255, 255, 0);
+  border: none;
+  margin-top: 12px;
+  margin-left: -40px;
+  outline: none;
+}
+
+#icon-search {
+  margin: 0;
+  padding: 0;
+  color: rgb(61, 61, 61);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  margin-left: 95px;
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #5c6f84;
+  padding-bottom: 7px;
+}
+
+nav #actuel {
+  color: black;
+  border-bottom: 3px solid #f08135;
+}
+
+@media (max-width: 1025px) {
+  #searchground {
+    width: 100%;
+  }
+  header {
+    border: none;
+    height: 150px;
+  }
+  #divbar {
+    text-align: center;
+  }
+  .SearchBar {
+    margin: 0;
+    padding: 0;
+    width: 530px;
+    height: 68px;
+    border-radius: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 18px;
+  }
+  #icon-search {
+    width: 30px;
+    height: 30px;
+    margin-left: -10px;
+    margin-top: 5px;
+  }
+  #srsh {
+    width: 50px;
+    position: absolute;
+    margin-left: -620px;
+    margin-top: -3px;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  #formnav {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  nav ul {
+    text-align: center;
+    display: inline-block;
+    margin-top: 30px;
+  }
+  nav ul li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 750px) {
+  .SearchBar {
+    width: 300px;
+  }
+
+  #srsh {
+    margin-left: -390px;
+  }
+}

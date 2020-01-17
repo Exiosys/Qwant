@@ -1,0 +1,7 @@
+vast_h : Vast Hugo : vast_h@etna-alternance.net
+brouar_n : Brouard Nicolas : brouar_n@etna-alternance.net
+bury_l : Bury Léo : bury_l@etna-alternance.net
+tienno_n : Tiennot Nicolas : tienno_n@etna-alternance.net
+
+
+Add : SlideBar déroulante + travaille sur le système de favoris.
